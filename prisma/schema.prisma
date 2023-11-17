@@ -70,7 +70,6 @@ model Chapter {
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
-  muxDataId String
 
   @@index([courseId])
 }
